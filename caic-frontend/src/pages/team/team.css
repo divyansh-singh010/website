@@ -1,0 +1,18 @@
+.team-main {
+	background: #f5ecdb;
+}
+
+.cards {
+	padding: 3vw 10vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 3vw 4vw;
+}
+
+@media screen and (max-width: 1000px) {
+	.cards {
+		width: 100vw;
+		padding: 8vw 0;
+	}
+} ;
